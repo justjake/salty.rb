@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.0.9)
+    method_source (0.8.2)
+    mime-types (1.24)
+    multi_json (1.7.8)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rb-readline (0.5.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    slop (3.4.6)
+    socketio-client (0.0.3)
+      rest-client
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  multi_json
+  pry
+  rb-readline
+  socketio-client
